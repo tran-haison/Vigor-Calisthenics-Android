@@ -37,6 +37,7 @@ android {
 }
 
 dependencies {
+    def roomVersion = "2.4.2"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
@@ -49,4 +50,11 @@ dependencies {
     // Gson
     // https://github.com/google/gson
     implementation 'com.google.code.gson:gson:2.9.0'
+
+    // Room
+    // https://developer.android.com/training/data-storage/room
+    implementation("androidx.room:room-runtime:$roomVersion")
+    annotationProcessor("androidx.room:room-compiler:$roomVersion")
+    // [Optional] Kotlin Extensions and Coroutines support for Room
+    implementation("androidx.room:room-ktx:$roomVersion")
 }

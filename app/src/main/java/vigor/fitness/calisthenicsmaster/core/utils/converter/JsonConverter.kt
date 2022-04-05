@@ -2,6 +2,7 @@ package vigor.fitness.calisthenicsmaster.core.utils.converter
 
 import android.content.Context
 import com.google.gson.Gson
+import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 import org.json.JSONObject
 import vigor.fitness.calisthenicsmaster.core.utils.log.log
@@ -9,6 +10,7 @@ import vigor.fitness.calisthenicsmaster.core.utils.log.logError
 import vigor.fitness.calisthenicsmaster.features.exercise.domain.models.Exercise
 import vigor.fitness.calisthenicsmaster.features.routine.domain.models.Routine
 import vigor.fitness.calisthenicsmaster.features.skill.domain.models.Skill
+import java.lang.reflect.Modifier
 
 class JsonConverter(
     private val _context: Context,
@@ -28,7 +30,7 @@ class JsonConverter(
         val jsonFileString = readJsonAssets(EXERCISES_JSON_FILE)
         val jsonRoot = JSONObject(jsonFileString)
         val jsonArray = jsonRoot.getJSONArray(EXERCISES_ARRAY_NAME)
-        val gson = Gson()
+        val gson = GsonBuilder().excludeFieldsWithModifiers(Modifier.TRANSIENT).create()
         val listExercisesType = object : TypeToken<List<Exercise>>() {}.type
         return gson.fromJson(jsonArray.toString(), listExercisesType)
     }
