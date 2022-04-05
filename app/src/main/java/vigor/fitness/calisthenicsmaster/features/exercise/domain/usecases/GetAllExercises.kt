@@ -1,0 +1,14 @@
+package vigor.fitness.calisthenicsmaster.features.exercise.domain.usecases
+
+import kotlinx.coroutines.flow.Flow
+import vigor.fitness.calisthenicsmaster.features.exercise.domain.models.Exercise
+import vigor.fitness.calisthenicsmaster.features.exercise.domain.repositories.ExerciseRepository
+
+class GetAllExercises(
+    private val _exerciseRepository: ExerciseRepository
+) {
+
+    operator fun invoke() : Flow<List<Exercise>> {
+        return _exerciseRepository.getAllExercises()
+    }
+}

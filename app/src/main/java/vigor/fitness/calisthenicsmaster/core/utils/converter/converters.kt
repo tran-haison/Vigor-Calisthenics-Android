@@ -4,7 +4,7 @@ import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
-class StringAndListConverter {
+class ListStringConverter {
 
     @TypeConverter
     fun listToString(list: List<String>): String {
