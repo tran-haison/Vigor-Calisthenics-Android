@@ -1,11 +1,17 @@
 package vigor.fitness.calisthenicsmaster.features.routine.domain.models
 
 
-import com.google.gson.annotations.SerializedName
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import androidx.room.TypeConverters
+import vigor.fitness.calisthenicsmaster.core.utils.converter.ListIntConverter
 
+@Entity
+@TypeConverters(ListIntConverter::class)
 data class ExerciseState(
-    @SerializedName("record")
+    @PrimaryKey(autoGenerate = true)
+    @Transient
+    val id: Int,
     val record: Int,
-    @SerializedName("lastSetResult")
     val lastSetResult: List<Int>
 )

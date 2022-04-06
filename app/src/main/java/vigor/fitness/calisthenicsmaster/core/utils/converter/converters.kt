@@ -4,18 +4,21 @@ import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
-class ListStringConverter {
+abstract class Converter<T> {
 
     @TypeConverter
-    fun listToString(list: List<String>): String {
+    fun objectToString(param: T): String {
         val gson = Gson()
-        return gson.toJson(list)
+        return gson.toJson(param)
     }
 
     @TypeConverter
-    fun stringToList(json: String): List<String> {
+    fun stringToObject(json: String): T {
         val gson = Gson()
-        val listType = object : TypeToken<List<String>>() {}.type
-        return gson.fromJson(json, listType)
+        val type = object : TypeToken<T>() {}.type
+        return gson.fromJson(json, type)
     }
 }
+
+class ListStringConverter: Converter<List<String>>()
+class ListIntConverter: Converter<List<Int>>()

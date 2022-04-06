@@ -1,7 +1,6 @@
 package vigor.fitness.calisthenicsmaster.core.utils.converter
 
 import android.content.Context
-import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 import org.json.JSONObject
@@ -17,9 +16,9 @@ class JsonConverter(
 ) {
 
     companion object {
-        private const val EXERCISES_JSON_FILE = "data/exercises.json"
-        private const val ROUTINES_JSON_FILE = "data/routines.json"
-        private const val SKILLS_JSON_FILE = "data/skills.json"
+        private const val EXERCISES_JSON_FILE = "/data/exercises.json"
+        private const val ROUTINES_JSON_FILE = "/data/routines.json"
+        private const val SKILLS_JSON_FILE = "/data/skills.json"
 
         private const val EXERCISES_ARRAY_NAME = "exercises"
         private const val ROUTINES_ARRAY_NAME = "routines"
@@ -39,7 +38,7 @@ class JsonConverter(
         val jsonFileString = readJsonAssets(ROUTINES_JSON_FILE)
         val jsonRoot = JSONObject(jsonFileString)
         val jsonArray = jsonRoot.getJSONArray(ROUTINES_ARRAY_NAME)
-        val gson = Gson()
+        val gson = GsonBuilder().excludeFieldsWithModifiers(Modifier.TRANSIENT).create()
         val listRoutinesType = object : TypeToken<List<Routine>>() {}.type
         return gson.fromJson(jsonArray.toString(), listRoutinesType)
     }
@@ -48,7 +47,7 @@ class JsonConverter(
         val jsonFileString = readJsonAssets(SKILLS_JSON_FILE)
         val jsonRoot = JSONObject(jsonFileString)
         val jsonArray = jsonRoot.getJSONArray(SKILLS_ARRAY_NAME)
-        val gson = Gson()
+        val gson = GsonBuilder().excludeFieldsWithModifiers(Modifier.TRANSIENT).create()
         val listSkillsType = object : TypeToken<List<Skill>>() {}.type
         return gson.fromJson(jsonArray.toString(), listSkillsType)
     }

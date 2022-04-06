@@ -10,7 +10,7 @@ inline fun Any.log(message: () -> String) {
     }
 }
 
-inline fun Any.logError(message: () -> String) {
+inline fun Any.logError(message: () -> String?) {
     if (BuildConfig.DEBUG) {
         Log.e(this.javaClass.simpleName, message())
     }

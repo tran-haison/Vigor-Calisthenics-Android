@@ -1,21 +1,19 @@
 package vigor.fitness.calisthenicsmaster.features.routine.domain.models
 
 
-import com.google.gson.annotations.SerializedName
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
+@Entity
 data class Plan(
-    @SerializedName("nr")
+    @PrimaryKey(autoGenerate = true)
+    @Transient
+    val id: Int,
     val nr: Int,
-    @SerializedName("name")
     val name: String,
-    @SerializedName("set")
     val `set`: Int,
-    @SerializedName("beat")
     val beat: Int,
-    @SerializedName("exerciseState")
     val exerciseState: ExerciseState,
-    @SerializedName("pauseAfterSet")
     val pauseAfterSet: Int,
-    @SerializedName("pauseAfterExercise")
     val pauseAfterExercise: Int
 )
