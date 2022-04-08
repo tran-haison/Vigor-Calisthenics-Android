@@ -57,4 +57,11 @@ dependencies {
     annotationProcessor("androidx.room:room-compiler:$roomVersion")
     // [Optional] Kotlin Extensions and Coroutines support for Room
     implementation("androidx.room:room-ktx:$roomVersion")
+
+    // Pretty logger
+    // https://github.com/orhanobut/logger
+    implementation 'com.orhanobut:logger:2.2.0'
+    // https://github.com/JakeWharton/timber
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
 }

@@ -1,4 +1,4 @@
-package vigor.fitness.calisthenicsmaster.features.routine.domain.models
+package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
 
 
 import androidx.room.Entity

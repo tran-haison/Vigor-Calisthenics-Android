@@ -3,7 +3,7 @@ package vigor.fitness.calisthenicsmaster.features.exercise.data.datasources.loca
 import kotlinx.coroutines.flow.Flow
 import vigor.fitness.calisthenicsmaster.features.exercise.data.datasources.ExerciseLocalDatasource
 import vigor.fitness.calisthenicsmaster.features.exercise.data.datasources.local.daos.ExerciseDao
-import vigor.fitness.calisthenicsmaster.features.exercise.domain.models.Exercise
+import vigor.fitness.calisthenicsmaster.features.exercise.domain.entities.Exercise
 
 class ExerciseLocalDatasourceImpl(
     private val _exerciseDao: ExerciseDao

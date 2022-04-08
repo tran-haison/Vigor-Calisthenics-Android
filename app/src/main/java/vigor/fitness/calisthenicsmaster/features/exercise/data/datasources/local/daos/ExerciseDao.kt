@@ -5,7 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
-import vigor.fitness.calisthenicsmaster.features.exercise.domain.models.Exercise
+import vigor.fitness.calisthenicsmaster.features.exercise.domain.entities.Exercise
 
 @Dao
 interface ExerciseDao {

@@ -1,16 +1,20 @@
-package vigor.fitness.calisthenicsmaster.features.routine.domain.models
+package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
 
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
+@Entity(
+
+)
 data class Progression(
-    @SerializedName("name")
+    @PrimaryKey(autoGenerate = true)
+    @Transient
+    val id: Int,
     val name: String,
-    @SerializedName("level")
     val level: Int,
-    @SerializedName("goal")
     val goal: Int,
-    @SerializedName("goalText")
     val goalText: String,
     @SerializedName("progressState")
     val progressState: ProgressState,

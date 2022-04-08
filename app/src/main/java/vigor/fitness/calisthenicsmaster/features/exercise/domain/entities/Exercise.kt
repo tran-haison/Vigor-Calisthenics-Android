@@ -1,4 +1,4 @@
-package vigor.fitness.calisthenicsmaster.features.exercise.domain.models
+package vigor.fitness.calisthenicsmaster.features.exercise.domain.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -8,10 +8,8 @@ import vigor.fitness.calisthenicsmaster.core.utils.converter.ListStringConverter
 @Entity
 @TypeConverters(ListStringConverter::class)
 data class Exercise(
-
     @PrimaryKey(autoGenerate = true)
-    @Transient
-    val id: Int,
+    val id: Int? = null,
     val name: String,
     val description: String,
     val dynamicExercise: Boolean,

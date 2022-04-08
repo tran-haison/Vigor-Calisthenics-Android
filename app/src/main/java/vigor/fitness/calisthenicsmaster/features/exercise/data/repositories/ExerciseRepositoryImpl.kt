@@ -2,7 +2,7 @@ package vigor.fitness.calisthenicsmaster.features.exercise.data.repositories
 
 import kotlinx.coroutines.flow.Flow
 import vigor.fitness.calisthenicsmaster.features.exercise.data.datasources.ExerciseLocalDatasource
-import vigor.fitness.calisthenicsmaster.features.exercise.domain.models.Exercise
+import vigor.fitness.calisthenicsmaster.features.exercise.domain.entities.Exercise
 import vigor.fitness.calisthenicsmaster.features.exercise.domain.repositories.ExerciseRepository
 
 class ExerciseRepositoryImpl(

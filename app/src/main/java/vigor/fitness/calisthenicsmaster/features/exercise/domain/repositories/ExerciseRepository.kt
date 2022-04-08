@@ -1,7 +1,7 @@
 package vigor.fitness.calisthenicsmaster.features.exercise.domain.repositories
 
 import kotlinx.coroutines.flow.Flow
-import vigor.fitness.calisthenicsmaster.features.exercise.domain.models.Exercise
+import vigor.fitness.calisthenicsmaster.features.exercise.domain.entities.Exercise
 
 interface ExerciseRepository {
     suspend fun insertExercise(exercise: Exercise)

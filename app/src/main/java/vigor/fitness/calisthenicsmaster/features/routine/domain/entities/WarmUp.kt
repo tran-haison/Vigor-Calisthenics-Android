@@ -1,9 +1,9 @@
-package vigor.fitness.calisthenicsmaster.features.routine.domain.models
+package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
 
 
 import com.google.gson.annotations.SerializedName
 
-data class Stretching(
+data class WarmUp(
     @SerializedName("name")
     val name: String,
     @SerializedName("beat")
