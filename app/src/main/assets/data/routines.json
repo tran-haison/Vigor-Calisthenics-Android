@@ -8,6 +8,7 @@
       "name": "Muscle Workout",
       "exercisePic": "images/routine_muscle_up.png",
       "exercisePicDark": "images/basics.png",
+      "progress": 0,
       "dynamicExercise": true,
       "video": "no_video",
       "videoURL": "x743RLRoG5Y",
@@ -31,11 +32,13 @@
       },
       "progressions": [
         {
+          "id": 10011,
           "name": "Beginner",
           "level": 1,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10011,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -269,11 +272,13 @@
           ]
         },
         {
+          "id": 10012,
           "name": "Intermediate",
           "level": 2,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10012,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -536,11 +541,13 @@
       },
       "progressions": [
         {
+          "id": 10021,
           "name": "Beginner",
           "level": 1,
           "goal": 50,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10021,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -849,11 +856,13 @@
           ]
         },
         {
+          "id": 10022,
           "name": "Intermediate",
           "level": 2,
           "goal": 50,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10022,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1254,11 +1263,13 @@
       },
       "progressions": [
         {
+          "id": 10041,
           "name": "Beginner",
           "level": 1,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10041,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -1559,11 +1570,13 @@
           ]
         },
         {
+          "id": 10042,
           "name": "Intermediate",
           "level": 2,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10042,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1868,11 +1881,13 @@
           ]
         },
         {
+          "id": 10043,
           "name": "Advanced",
           "level": 3,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10043,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -2208,11 +2223,13 @@
       },
       "progressions": [
         {
+          "id": 10051,
           "name": "Beginner",
           "level": 1,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10051,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -2325,11 +2342,13 @@
           ]
         },
         {
+          "id": 10052,
           "name": "Intermediate",
           "level": 2,
           "goal": 10,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10052,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -2471,11 +2490,13 @@
       },
       "progressions": [
         {
+          "id": 10061,
           "name": "Beginner",
           "level": 1,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10061,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -2617,11 +2638,13 @@
       },
       "progressions": [
         {
+          "id": 10071,
           "name": "Beginner",
           "level": 1,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10071,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -2759,11 +2782,13 @@
       },
       "progressions": [
         {
+          "id": 10081,
           "name": "Beginner",
           "level": 1,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10081,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -3284,11 +3309,13 @@
           ]
         },
         {
+          "id": 10082,
           "name": "Intermediate",
           "level": 2,
           "goal": 15,
           "goalText": "\u2191 reps",
           "progressState": {
+            "progressId": 10082,
             "finished": false,
             "currentProgress": false,
             "status": 0.0

@@ -3,25 +3,25 @@ package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import androidx.room.TypeConverters
 import com.google.gson.annotations.SerializedName
+import vigor.fitness.calisthenicsmaster.core.utils.converter.ListStretchingConverter
+import vigor.fitness.calisthenicsmaster.core.utils.converter.ListWarmUpConverter
+import vigor.fitness.calisthenicsmaster.features.routine.data.models.WarmUpModel
 
-@Entity(
-
+@Entity
+@TypeConverters(
+    ListWarmUpConverter::class,
+    ListStretchingConverter::class
 )
 data class Progression(
-    @PrimaryKey(autoGenerate = true)
-    @Transient
+    @PrimaryKey
     val id: Int,
     val name: String,
     val level: Int,
     val goal: Int,
     val goalText: String,
-    @SerializedName("progressState")
-    val progressState: ProgressState,
-    @SerializedName("warmUp")
+    val progressId: Int,
     val warmUp: List<WarmUp>,
-    @SerializedName("stretching")
-    val stretching: List<Stretching>,
-    @SerializedName("plan")
-    val plan: List<Plan>
+    val stretching: List<Stretching>
 )

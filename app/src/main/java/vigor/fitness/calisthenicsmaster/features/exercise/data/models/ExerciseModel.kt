@@ -20,7 +20,7 @@ data class ExerciseModel(
     val techniqueSummary: String,
     val exercisePic2: String? = null
 ) {
-    fun modelToEntity(): Exercise {
+    fun toEntity(): Exercise {
         return Exercise(
             name = this.name,
             description = this.description,

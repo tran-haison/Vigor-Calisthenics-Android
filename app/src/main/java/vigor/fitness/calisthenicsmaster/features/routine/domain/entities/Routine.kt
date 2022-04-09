@@ -18,6 +18,7 @@ data class Routine(
     val name: String,
     val exercisePic: String,
     val exercisePicDark: String,
+    val progress: Int,
     val dynamicExercise: Boolean,
     val video: String,
     val videoURL: String,
@@ -32,6 +33,4 @@ data class Routine(
     val skillPic: String,
     val titlePic: String,
     val skillID: Int,
-    val progressionListId: List<Int>,
-    val progress: Int? = null,
 )

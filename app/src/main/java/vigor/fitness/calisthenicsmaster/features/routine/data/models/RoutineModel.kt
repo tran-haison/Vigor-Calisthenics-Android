@@ -1,9 +1,7 @@
 package vigor.fitness.calisthenicsmaster.features.routine.data.models
 
 
-import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.Progression
 import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.Routine
-import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.SkillState
 
 data class RoutineModel(
     val id: Int,
@@ -11,6 +9,7 @@ data class RoutineModel(
     val name: String,
     val exercisePic: String,
     val exercisePicDark: String,
+    val progress: Int,
     val dynamicExercise: Boolean,
     val video: String,
     val videoURL: String,
@@ -24,17 +23,17 @@ data class RoutineModel(
     val routine: Boolean,
     val skillPic: String,
     val titlePic: String,
-    val skillState: SkillState,
-    val progressions: List<Progression>,
-    val progress: Int? = null,
+    val skillState: SkillStateModel,
+    val progressions: List<ProgressionModel>,
 ) {
-    fun modelToEntity(): Routine {
+    fun toEntity(): Routine {
         return Routine(
             id = this.id,
             belongingRoutineIDs = this.belongingRoutineIDs,
             name = this.name,
             exercisePic = this.exercisePic,
             exercisePicDark = this.exercisePicDark,
+            progress = this.progress,
             dynamicExercise = this.dynamicExercise,
             video = this.video,
             videoURL = this.videoURL,
@@ -49,8 +48,6 @@ data class RoutineModel(
             skillPic = this.skillPic,
             titlePic = this.titlePic,
             skillID = this.skillState.skillID,
-            progressionListId = this.progressions.map { it.id },
-            progress = this.progress,
         )
     }
 }

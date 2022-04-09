@@ -6,8 +6,7 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class ProgressState(
-    @PrimaryKey(autoGenerate = true)
-    @Transient
+    @PrimaryKey
     val progressId: Int,
     val finished: Boolean,
     val currentProgress: Boolean,
