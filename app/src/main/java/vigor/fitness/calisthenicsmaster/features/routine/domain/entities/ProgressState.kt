@@ -1,6 +1,5 @@
 package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
 
-
 data class ProgressState(
     val progressId: Int,
     val finished: Boolean,

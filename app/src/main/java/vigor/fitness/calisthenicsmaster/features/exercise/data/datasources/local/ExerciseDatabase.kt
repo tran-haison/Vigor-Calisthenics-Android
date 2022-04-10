@@ -14,6 +14,6 @@ abstract class ExerciseDatabase : RoomDatabase() {
     abstract val exerciseDao: ExerciseDao
 
     companion object {
-        const val EXERCISE_DATABASE_NAME = "exercises_db"
+        const val EXERCISE_DATABASE_NAME = "exercises.db"
     }
 }
