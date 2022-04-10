@@ -20,7 +20,7 @@ data class ProgressionModel(
             level = this.level,
             goal = this.goal,
             goalText = this.goalText,
-            progressId = this.progressState.progressId,
+            progressState = this.progressState.toEntity(),
             warmUp = this.warmUp.map { it.toEntity() },
             stretching = this.stretching.map { it.toEntity() }
         )

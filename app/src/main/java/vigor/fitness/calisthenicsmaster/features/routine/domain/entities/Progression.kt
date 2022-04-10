@@ -1,6 +1,7 @@
 package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
 
 
+import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
@@ -21,7 +22,8 @@ data class Progression(
     val level: Int,
     val goal: Int,
     val goalText: String,
-    val progressId: Int,
+    @Embedded(prefix = "progressState_")
+    val progressState: ProgressState,
     val warmUp: List<WarmUp>,
     val stretching: List<Stretching>
 )

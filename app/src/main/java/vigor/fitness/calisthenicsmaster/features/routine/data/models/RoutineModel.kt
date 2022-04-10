@@ -47,7 +47,7 @@ data class RoutineModel(
             routine = this.routine,
             skillPic = this.skillPic,
             titlePic = this.titlePic,
-            skillID = this.skillState.skillID,
+            skillState = this.skillState.toEntity(),
         )
     }
 }

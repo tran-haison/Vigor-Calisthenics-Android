@@ -1,5 +1,6 @@
 package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
 
+import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
@@ -32,5 +33,6 @@ data class Routine(
     val routine: Boolean,
     val skillPic: String,
     val titlePic: String,
-    val skillID: Int,
+    @Embedded(prefix = "skillState_")
+    val skillState: SkillState,
 )

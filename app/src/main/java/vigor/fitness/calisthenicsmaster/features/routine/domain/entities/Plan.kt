@@ -12,7 +12,7 @@ data class Plan(
     val name: String,
     val set: Int,
     val beat: Int,
-    @Embedded
+    @Embedded(prefix = "exerciseState_")
     val exerciseState: ExerciseState,
     val pauseAfterSet: Int,
     val pauseAfterExercise: Int
