@@ -4,10 +4,11 @@ import kotlinx.coroutines.flow.Flow
 import vigor.fitness.calisthenicsmaster.features.exercise.data.datasources.ExerciseLocalDatasource
 import vigor.fitness.calisthenicsmaster.features.exercise.data.datasources.local.daos.ExerciseDao
 import vigor.fitness.calisthenicsmaster.features.exercise.domain.entities.Exercise
+import javax.inject.Inject
 
 class ExerciseLocalDatasourceImpl(
     private val _exerciseDao: ExerciseDao
-): ExerciseLocalDatasource {
+) : ExerciseLocalDatasource {
 
     override suspend fun insertExercise(exercise: Exercise) {
         return _exerciseDao.insertExercise(exercise)

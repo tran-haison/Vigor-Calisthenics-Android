@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -58,10 +61,23 @@ dependencies {
     // [Optional] Kotlin Extensions and Coroutines support for Room
     implementation("androidx.room:room-ktx:$roomVersion")
 
-    // Pretty logger
+    // Logger
     // https://github.com/orhanobut/logger
     implementation 'com.orhanobut:logger:2.2.0'
     // https://github.com/JakeWharton/timber
     implementation 'com.jakewharton.timber:timber:5.0.1'
 
+    // Dagger Hilt
+    // https://developer.android.com/training/dependency-injection/hilt-android
+    implementation 'com.google.dagger:hilt-android:2.38.1'
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
+    kapt 'com.google.dagger:hilt-android-compiler:2.38.1'
+    kapt 'androidx.hilt:hilt-compiler:1.0.0'
+
+    // Retrofit
+    // https://square.github.io
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation "com.squareup.okhttp3:okhttp:5.0.0-alpha.2"
+    implementation "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2"
 }

@@ -4,9 +4,11 @@ import android.app.Application
 import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.Logger
 import com.orhanobut.logger.PrettyFormatStrategy
+import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 import vigor.fitness.calisthenicsmaster.core.utils.constant.GLOBAL_TAG
 
+@HiltAndroidApp
 class App : Application() {
 
     override fun onCreate() {
