@@ -3,7 +3,7 @@ package vigor.fitness.calisthenicsmaster.features.routine.domain.usecases
 import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.Progression
 import vigor.fitness.calisthenicsmaster.features.routine.domain.repositories.RoutineRepository
 
-class InsertProgressionListUC(
+class RoutineInsertProgressionListUC(
     private val _routineRepository: RoutineRepository
 ) {
 

@@ -4,19 +4,37 @@ import android.app.Application
 import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.Logger
 import com.orhanobut.logger.PrettyFormatStrategy
+import org.koin.android.ext.koin.androidContext
+import org.koin.android.ext.koin.androidLogger
+import org.koin.core.context.startKoin
 import timber.log.Timber
 import vigor.fitness.calisthenicsmaster.core.utils.constant.GLOBAL_TAG
+import vigor.fitness.calisthenicsmaster.di.appModule
+import vigor.fitness.calisthenicsmaster.di.repoModule
+import vigor.fitness.calisthenicsmaster.di.useCaseModule
+import vigor.fitness.calisthenicsmaster.di.viewModelModule
 
 class App : Application() {
 
     override fun onCreate() {
         super.onCreate()
 
-        // Init logger
-        initLogger()
+        // Setup DI
+        setupDI()
+
+        // Setup log
+        setupLogDebug()
     }
 
-    private fun initLogger() {
+    private fun setupDI() {
+        startKoin {
+            androidLogger()
+            androidContext(this@App)
+            modules(listOf(appModule, repoModule, useCaseModule, viewModelModule))
+        }
+    }
+
+    private fun setupLogDebug() {
         val formatStrategy = PrettyFormatStrategy.newBuilder()
             .showThreadInfo(true)
             .methodCount(1)

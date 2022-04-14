@@ -1,4 +1,4 @@
-package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
+package vigor.fitness.calisthenicsmaster.core.domain.entities
 
 data class ProgressState(
     val progressId: Int,

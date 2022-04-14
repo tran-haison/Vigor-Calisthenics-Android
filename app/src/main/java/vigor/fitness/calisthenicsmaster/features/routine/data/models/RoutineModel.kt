@@ -1,6 +1,7 @@
 package vigor.fitness.calisthenicsmaster.features.routine.data.models
 
 
+import vigor.fitness.calisthenicsmaster.core.data.models.SkillStateModel
 import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.Routine
 
 data class RoutineModel(

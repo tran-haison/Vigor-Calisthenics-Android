@@ -1,6 +1,6 @@
-package vigor.fitness.calisthenicsmaster.features.routine.data.models
+package vigor.fitness.calisthenicsmaster.core.data.models
 
-import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.ProgressState
+import vigor.fitness.calisthenicsmaster.core.domain.entities.ProgressState
 
 data class ProgressStateModel(
     val progressId: Int,

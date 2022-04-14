@@ -15,9 +15,11 @@
       },
       "progressions": [
         {
+          "id": 11,
           "name": "Pull Up",
           "level": 1,
           "progressState": {
+            "progressId": 11,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -132,9 +134,11 @@
           ]
         },
         {
+          "id": 12,
           "name": "High Pull Up",
           "level": 2,
           "progressState": {
+            "progressId": 12,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -249,10 +253,12 @@
           ]
         },
         {
+          "id": 13,
           "name": "Jumping Muscle Up",
           "level": 3,
           "goal": 10,
           "progressState": {
+            "progressId": 13,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -368,10 +374,12 @@
           ]
         },
         {
+          "id": 14,
           "name": "Kipping Muscle Up",
           "level": 4,
           "goal": 6,
           "progressState": {
+            "progressId": 14,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -485,10 +493,12 @@
           ]
         },
         {
+          "id": 15,
           "name": "Muscle Up",
           "level": 5,
           "goal": 10,
           "progressState": {
+            "progressId": 15,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -621,10 +631,12 @@
       "description": "<p>The Planche is one of the most impressive Calisthenic skills and requires a lot of wrist, straight arm and shoulder strength. In a Planche you hold your body parallel to the ground with your legs in the air. Lean far forward (hands below hip) in order to keep your balance. Your arms should be straight and your elbows locked out. Your scapula needs to protracted, so push your shoulder down. With a tightened core and a hollow body keep your body in a position where it is parallel to the ground.</p> <p>Hand placement: You can use different hand placement (fingers forward, fingers to the side, fingertips hold, fingers backward). Use the one you feel most comfortable with, but keep attention to don't overstress your wrists (you can reduce the stress on your writs by using parallettes or push up bars). </p> <p>Recommended Read:</p> <p>* <a href='https://gmb.io/planche/'> Gold Medal Bodies - Planche </a> </p><p>* <a href='http://functionallymad.com/lets-planche-the-mega-meta-review.html'> Functionally Mad - Lets Planche</a> </p><p>* <a href='http://roughstrength.com/how-to-achieve-planche/'> Rough Strength - How to achieve Planche</a> </p><p>* <a href='https://myplanchetraining.wordpress.com/'> My Planche Traning </a> </p>",
       "progressions": [
         {
+          "id": 21,
           "name": "Pseudo Push Ups",
           "level": 1,
           "goal": 10,
           "progressState": {
+            "progressId": 21,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -739,10 +751,12 @@
           ]
         },
         {
+          "id": 22,
           "name": "Frog Stand",
           "level": 2,
           "goal": 30,
           "progressState": {
+            "progressId": 22,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -856,10 +870,12 @@
           ]
         },
         {
+          "id": 23,
           "name": "Tuck Planche",
           "level": 3,
           "goal": 20,
           "progressState": {
+            "progressId": 23,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -977,10 +993,12 @@
           ]
         },
         {
+          "id": 24,
           "name": "Adv. Tuck Planche",
           "level": 4,
           "goal": 15,
           "progressState": {
+            "progressId": 24,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1094,10 +1112,12 @@
           ]
         },
         {
+          "id": 25,
           "name": "Straddle Planche",
           "level": 5,
           "goal": 10,
           "progressState": {
+            "progressId": 25,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1211,10 +1231,12 @@
           ]
         },
         {
+          "id": 26,
           "name": "Planche",
           "level": 6,
           "goal": 10,
           "progressState": {
+            "progressId": 26,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1346,10 +1368,12 @@
       "description": "<p>Execution: The Front Lever is an advanced Calisthenics skill, where you hold the back of your body parallel to the ground, supported only through your arms. Your arms should be straight and your core tightened. Retract your scapula (push shoulders back) and keep your hips high (on level with shoulders). </p>",
       "progressions": [
         {
+          "id": 31,
           "name": "Tuck Front Lever",
           "level": 1,
           "goal": 20,
           "progressState": {
+            "progressId": 31,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -1463,10 +1487,12 @@
           ]
         },
         {
+          "id": 32,
           "name": "Adv. Tuck Front Lever",
           "level": 2,
           "goal": 20,
           "progressState": {
+            "progressId": 32,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1580,10 +1606,12 @@
           ]
         },
         {
+          "id": 33,
           "name": "One Leg Front Lever",
           "level": 3,
           "goal": 15,
           "progressState": {
+            "progressId": 33,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1697,10 +1725,12 @@
           ]
         },
         {
+          "id": 34,
           "name": "Half Front Lever",
           "level": 4,
           "goal": 15,
           "progressState": {
+            "progressId": 34,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1814,10 +1844,12 @@
           ]
         },
         {
+          "id": 35,
           "name": "Straddle Front Lever",
           "level": 5,
           "goal": 15,
           "progressState": {
+            "progressId": 35,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -1935,10 +1967,12 @@
           ]
         },
         {
+          "id": 36,
           "name": "Front Lever",
           "level": 6,
           "goal": 12,
           "progressState": {
+            "progressId": 36,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -2068,10 +2102,12 @@
       "description": "The Back Lever is an advanced Calisthenics skill, where you hold the back of your body parallel to the ground, supported only through your arms. Keep your arms straight and protract your scapula by pushing your shoulders forward. The Back Lever starts in a dead hang position. Pull your legs to the bar and continue rotating them past your elbows. Now increase the leverage through raising your legs up, while keeping straight and tight. Stop the rotation when your back is parallel to the ground, and hold yourself in this position. Keep your arms straight and protract your scapula by pushing your shoulders forward",
       "progressions": [
         {
+          "id": 41,
           "name": "Skin the Cat",
           "level": 1,
           "goal": 6,
           "progressState": {
+            "progressId": 41,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -2185,10 +2221,12 @@
           ]
         },
         {
+          "id": 42,
           "name": "Tuck Back Lever",
           "level": 2,
           "goal": 20,
           "progressState": {
+            "progressId": 42,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -2302,10 +2340,12 @@
           ]
         },
         {
+          "id": 43,
           "name": "Adv. Tuck Back Lever",
           "level": 3,
           "goal": 15,
           "progressState": {
+            "progressId": 43,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -2419,10 +2459,12 @@
           ]
         },
         {
+          "id": 44,
           "name": "Straddle Back Lever",
           "level": 4,
           "goal": 10,
           "progressState": {
+            "progressId": 44,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -2540,10 +2582,12 @@
           ]
         },
         {
+          "id": 45,
           "name": "Back Lever",
           "level": 5,
           "goal": 10,
           "progressState": {
+            "progressId": 45,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -2673,10 +2717,12 @@
       "description": "The Pistol Squat is a great exercise to increase your leg strength and power. It will also improve your balance and vertical jump. The Pistol squat is performed by standing on one leg. Descend slowly and balanced while keeping your weight on your heel and reaching your other leg into the air. The bottom position is reached when your butt almost touches your heel. Pause briefly then squat up, but keep attention to turn your knee outwards und push from your heel. During the whole move keep the tension in your abs for better balancing. A focused an correct performance of the Pistol Squat is very important. If you feel pain in your knees you should stop perform it or get advice in order to correct your technique. You should always train both sides.",
       "progressions": [
         {
+          "id": 51,
           "name": "Deep Squat",
           "level": 1,
           "goal": 30,
           "progressState": {
+            "progressId": 51,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -2802,10 +2848,12 @@
           ]
         },
         {
+          "id": 52,
           "name": "Bulgarian Squat",
           "level": 2,
           "goal": 10,
           "progressState": {
+            "progressId": 52,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -2931,10 +2979,12 @@
           ]
         },
         {
+          "id": 53,
           "name": "Archer Squat",
           "level": 3,
           "goal": 15,
           "progressState": {
+            "progressId": 53,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -3064,10 +3114,12 @@
           ]
         },
         {
+          "id": 54,
           "name": "Bench Pistol Squat",
           "level": 4,
           "goal": 15,
           "progressState": {
+            "progressId": 54,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -3197,10 +3249,12 @@
           ]
         },
         {
+          "id": 55,
           "name": "Assisted Pistol Squat",
           "level": 5,
           "goal": 10,
           "progressState": {
+            "progressId": 55,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -3330,10 +3384,12 @@
           ]
         },
         {
+          "id": 56,
           "name": "Rolling Pistol Squat",
           "level": 6,
           "goal": 10,
           "progressState": {
+            "progressId": 56,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -3463,10 +3519,12 @@
           ]
         },
         {
+          "id": 57,
           "name": "Elevated Pistol Squat",
           "level": 7,
           "goal": 10,
           "progressState": {
+            "progressId": 57,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -3596,10 +3654,12 @@
           ]
         },
         {
+          "id": 58,
           "name": "Pistol Squat",
           "level": 8,
           "goal": 10,
           "progressState": {
+            "progressId": 58,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -3749,10 +3809,12 @@
       "description": "The handstand push up combines push strength and balance. Start in a Handstand and descend controlled by keeping a straight body and leaning forward (a hollow body needs more strength than a arched back). Before your nose touches the ground push yourself up by keeping your elbows inwards. One rep counts if it was performed in full range of motion (nose almost touching ground & open shoulders in handstand position)",
       "progressions": [
         {
+          "id": 61,
           "name": "Pike Push Up",
           "level": 1,
           "goal": 10,
           "progressState": {
+            "progressId": 61,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -3867,10 +3929,12 @@
           ]
         },
         {
+          "id": 62,
           "name": "Adv. Pike Push Up",
           "level": 2,
           "goal": 10,
           "progressState": {
+            "progressId": 62,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -3980,10 +4044,12 @@
           ]
         },
         {
+          "id": 63,
           "name": "Wall Handstand Push Up",
           "level": 3,
           "goal": 6,
           "progressState": {
+            "progressId": 63,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -4093,10 +4159,12 @@
           ]
         },
         {
+          "id": 64,
           "name": "Neg. Handstand Push Up",
           "level": 4,
           "goal": 6,
           "progressState": {
+            "progressId": 64,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -4206,10 +4274,12 @@
           ]
         },
         {
+          "id": 65,
           "name": "Handstand Push Up",
           "level": 5,
           "goal": 5,
           "progressState": {
+            "progressId": 65,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -4339,10 +4409,12 @@
       "description": "<p>The V-Sit demands 3 things:</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1. Support strength</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2. Abs strength</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3. Hamstring flexibility</p></p><p>The support strength is needed to raise from the ground through pushing with your arms and shoulders (scapula depression). So if you think your arms are to short to perform this skill, maybe you just doesn't depress your scapula enough. Next you need strong abs to lift your legs from the ground. The most leverage to lift will be with straight legs. The more flexible hamstrings you have, the easier it will be to extend your legs. In order to get from the L-Sit to the V-Sit you need to push your hips forward and up.</p>",
       "progressions": [
         {
+          "id": 71,
           "name": "Straddle Leg Raise Hold",
           "level": 1,
           "goal": 30,
           "progressState": {
+            "progressId": 71,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -4444,10 +4516,12 @@
           ]
         },
         {
+          "id": 72,
           "name": "Leg Raise Hold",
           "level": 2,
           "goal": 30,
           "progressState": {
+            "progressId": 72,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -4553,10 +4627,12 @@
           ]
         },
         {
+          "id": 73,
           "name": "Tuck L-Sit",
           "level": 3,
           "goal": 30,
           "progressState": {
+            "progressId": 73,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -4666,10 +4742,12 @@
           ]
         },
         {
+          "id": 74,
           "name": "Straddle L-Sit",
           "level": 4,
           "goal": 20,
           "progressState": {
+            "progressId": 74,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -4779,10 +4857,12 @@
           ]
         },
         {
+          "id": 75,
           "name": "L-Sit",
           "level": 5,
           "goal": 15,
           "progressState": {
+            "progressId": 75,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -4892,10 +4972,12 @@
           ]
         },
         {
+          "id": 76,
           "name": "Tuck V-Sit",
           "level": 6,
           "goal": 15,
           "progressState": {
+            "progressId": 76,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -5005,10 +5087,12 @@
           ]
         },
         {
+          "id": 77,
           "name": "Straddle V-Sit",
           "level": 7,
           "goal": 15,
           "progressState": {
+            "progressId": 77,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -5118,10 +5202,12 @@
           ]
         },
         {
+          "id": 78,
           "name": "V-Sit",
           "level": 8,
           "goal": 15,
           "progressState": {
+            "progressId": 78,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -5247,9 +5333,11 @@
       },
       "progressions": [
         {
+          "id": 81,
           "name": "Pull Up",
           "level": 1,
           "progressState": {
+            "progressId": 81,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -5356,9 +5444,11 @@
           ]
         },
         {
+          "id": 82,
           "name": "Archer Pull Up",
           "level": 2,
           "progressState": {
+            "progressId": 82,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -5465,9 +5555,11 @@
           ]
         },
         {
+          "id": 83,
           "name": "Assisted One Arm Pull Up",
           "level": 3,
           "progressState": {
+            "progressId": 83,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -5574,9 +5666,11 @@
           ]
         },
         {
+          "id": 84,
           "name": "Negative One Arm Pull Up",
           "level": 4,
           "progressState": {
+            "progressId": 84,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -5683,9 +5777,11 @@
           ]
         },
         {
+          "id": 85,
           "name": "Little Assisted OAP",
           "level": 5,
           "progressState": {
+            "progressId": 85,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -5792,9 +5888,11 @@
           ]
         },
         {
+          "id": 86,
           "name": "One Arm Pull Up",
           "level": 6,
           "progressState": {
+            "progressId": 86,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -5921,10 +6019,12 @@
       },
       "progressions": [
         {
+          "id": 91,
           "name": "Hanging Side Bend",
           "goal": 30,
           "level": 1,
           "progressState": {
+            "progressId": 91,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -6029,10 +6129,12 @@
           ]
         },
         {
+          "id": 92,
           "name": "Angle Flag",
           "goal": 30,
           "level": 2,
           "progressState": {
+            "progressId": 92,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -6141,10 +6243,12 @@
           ]
         },
         {
+          "id": 93,
           "name": "Low Flag",
           "goal": 20,
           "level": 3,
           "progressState": {
+            "progressId": 93,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -6253,10 +6357,12 @@
           ]
         },
         {
+          "id": 94,
           "name": "Vertical Tuck Flag",
           "goal": 15,
           "level": 4,
           "progressState": {
+            "progressId": 94,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -6365,10 +6471,12 @@
           ]
         },
         {
+          "id": 95,
           "name": "Vertical Flag",
           "goal": 15,
           "level": 5,
           "progressState": {
+            "progressId": 95,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -6477,10 +6585,12 @@
           ]
         },
         {
+          "id": 96,
           "name": "Negative Flags",
           "goal": 6,
           "level": 6,
           "progressState": {
+            "progressId": 96,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -6589,10 +6699,12 @@
           ]
         },
         {
+          "id": 97,
           "name": "Straddle Flag",
           "goal": 10,
           "level": 7,
           "progressState": {
+            "progressId": 97,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -6710,10 +6822,12 @@
           ]
         },
         {
+          "id": 98,
           "name": "Human Flag",
           "goal": 10,
           "level": 8,
           "progressState": {
+            "progressId": 98,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -6843,10 +6957,12 @@
       },
       "progressions": [
         {
+          "id": 101,
           "name": "Push Up",
           "goal": 20,
           "level": 1,
           "progressState": {
+            "progressId": 101,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -6956,10 +7072,12 @@
           ]
         },
         {
+          "id": 102,
           "name": "Diamond Push Up",
           "goal": 20,
           "level": 2,
           "progressState": {
+            "progressId": 102,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -7069,10 +7187,12 @@
           ]
         },
         {
+          "id": 103,
           "name": "Alligator Push Up",
           "goal": 16,
           "level": 3,
           "progressState": {
+            "progressId": 103,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -7182,10 +7302,12 @@
           ]
         },
         {
+          "id": 104,
           "name": "Archer Push Up",
           "goal": 5,
           "level": 4,
           "progressState": {
+            "progressId": 104,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -7295,10 +7417,12 @@
           ]
         },
         {
+          "id": 105,
           "name": "Incline One Arm Push Up",
           "goal": 5,
           "level": 5,
           "progressState": {
+            "progressId": 105,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -7408,10 +7532,12 @@
           ]
         },
         {
+          "id": 106,
           "name": "Neg. One Arm Push Up",
           "goal": 6,
           "level": 6,
           "progressState": {
+            "progressId": 106,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -7521,10 +7647,12 @@
           ]
         },
         {
+          "id": 107,
           "name": "Rocky Push Up",
           "goal": 5,
           "level": 7,
           "progressState": {
+            "progressId": 107,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -7634,10 +7762,12 @@
           ]
         },
         {
+          "id": 108,
           "name": "One Arm Push Up",
           "goal": 5,
           "level": 8,
           "progressState": {
+            "progressId": 108,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -7763,10 +7893,12 @@
       },
       "progressions": [
         {
+          "id": 111,
           "name": "Downward Dog",
           "goal": 60,
           "level": 1,
           "progressState": {
+            "progressId": 111,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -7884,10 +8016,12 @@
           ]
         },
         {
+          "id": 112,
           "name": "Pike Hold",
           "goal": 60,
           "level": 2,
           "progressState": {
+            "progressId": 112,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8005,10 +8139,12 @@
           ]
         },
         {
+          "id": 113,
           "name": "Wall Handstand",
           "goal": 60,
           "level": 3,
           "progressState": {
+            "progressId": 113,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8125,10 +8261,12 @@
           ]
         },
         {
+          "id": 114,
           "name": "Adv. Wall Handstand",
           "goal": 30,
           "level": 4,
           "progressState": {
+            "progressId": 114,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8245,10 +8383,12 @@
           ]
         },
         {
+          "id": 115,
           "name": "Handstand",
           "goal": 30,
           "level": 5,
           "progressState": {
+            "progressId": 115,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8365,10 +8505,12 @@
           ]
         },
         {
+          "id": 116,
           "name": "Diamond Handstand",
           "goal": 30,
           "level": 6,
           "progressState": {
+            "progressId": 116,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8489,10 +8631,12 @@
           ]
         },
         {
+          "id": 117,
           "name": "Bend Straddle Handstand",
           "goal": 15,
           "level": 7,
           "progressState": {
+            "progressId": 117,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8613,10 +8757,12 @@
           ]
         },
         {
+          "id": 118,
           "name": "Fingertip Straddle Handstand",
           "goal": 15,
           "level": 8,
           "progressState": {
+            "progressId": 118,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8737,10 +8883,12 @@
           ]
         },
         {
+          "id": 119,
           "name": "Straddle One Arm Handstand",
           "goal": 15,
           "level": 9,
           "progressState": {
+            "progressId": 119,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8865,10 +9013,12 @@
           ]
         },
         {
+          "id": 1110,
           "name": "Diamond One Arm Handstand",
           "goal": 10,
           "level": 10,
           "progressState": {
+            "progressId": 1110,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -8989,10 +9139,12 @@
           ]
         },
         {
+          "id": 1111,
           "name": "One Arm Handstand",
           "goal": 15,
           "level": 11,
           "progressState": {
+            "progressId": 1111,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -9129,10 +9281,12 @@
       },
       "progressions": [
         {
+          "id": 121,
           "name": "Reverse Lunge",
           "goal": 15,
           "level": 1,
           "progressState": {
+            "progressId": 121,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -9253,10 +9407,12 @@
           ]
         },
         {
+          "id": 122,
           "name": "Supported Shrimp Squat",
           "goal": 5,
           "level": 2,
           "progressState": {
+            "progressId": 122,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -9381,10 +9537,12 @@
           ]
         },
         {
+          "id": 123,
           "name": "No Arm Shrimp Squat",
           "goal": 5,
           "level": 3,
           "progressState": {
+            "progressId": 123,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -9509,10 +9667,12 @@
           ]
         },
         {
+          "id": 124,
           "name": "One Arm Shrimp Squat",
           "goal": 5,
           "level": 4,
           "progressState": {
+            "progressId": 124,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -9641,10 +9801,12 @@
           ]
         },
         {
+          "id": 125,
           "name": "Shrimp Squat",
           "goal": 5,
           "level": 5,
           "progressState": {
+            "progressId": 125,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -9789,10 +9951,12 @@
       },
       "progressions": [
         {
+          "id": 131,
           "name": "Korean Dip",
           "goal": 15,
           "level": 1,
           "progressState": {
+            "progressId": 131,
             "finished": false,
             "currentProgress": true,
             "status": 0.0
@@ -9905,10 +10069,12 @@
           ]
         },
         {
+          "id": 132,
           "name": "Hefesto Dip",
           "goal": 10,
           "level": 2,
           "progressState": {
+            "progressId": 132,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -10022,10 +10188,12 @@
           ]
         },
         {
+          "id": 133,
           "name": "Negative Hefesto",
           "goal": 8,
           "level": 3,
           "progressState": {
+            "progressId": 133,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -10142,10 +10310,12 @@
           ]
         },
         {
+          "id": 134,
           "name": "Hefesto Pull",
           "goal": 10,
           "level": 4,
           "progressState": {
+            "progressId": 134,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -10263,10 +10433,12 @@
           ]
         },
         {
+          "id": 135,
           "name": "Assisted Hefesto",
           "goal": 6,
           "level": 5,
           "progressState": {
+            "progressId": 135,
             "finished": false,
             "currentProgress": false,
             "status": 0.0
@@ -10383,10 +10555,12 @@
           ]
         },
         {
+          "id": 136,
           "name": "Hefesto",
           "goal": 3,
           "level": 6,
           "progressState": {
+            "progressId": 136,
             "finished": false,
             "currentProgress": false,
             "status": 0.0

@@ -3,9 +3,8 @@ package vigor.fitness.calisthenicsmaster.core.utils.converter
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import vigor.fitness.calisthenicsmaster.features.routine.data.models.WarmUpModel
-import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.Stretching
-import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.WarmUp
+import vigor.fitness.calisthenicsmaster.core.domain.entities.Stretching
+import vigor.fitness.calisthenicsmaster.core.domain.entities.WarmUp
 
 abstract class Converter<T> {
 
@@ -25,5 +24,7 @@ abstract class Converter<T> {
 
 class ListStringConverter: Converter<List<String>>()
 class ListIntConverter: Converter<List<Int>>()
+
 class ListWarmUpConverter: Converter<List<WarmUp>>()
 class ListStretchingConverter: Converter<List<Stretching>>()
+

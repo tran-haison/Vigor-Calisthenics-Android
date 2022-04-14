@@ -5,9 +5,12 @@ import vigor.fitness.calisthenicsmaster.features.exercise.data.repositories.Exer
 import vigor.fitness.calisthenicsmaster.features.exercise.domain.repositories.ExerciseRepository
 import vigor.fitness.calisthenicsmaster.features.routine.data.repositories.RoutineRepositoryImpl
 import vigor.fitness.calisthenicsmaster.features.routine.domain.repositories.RoutineRepository
+import vigor.fitness.calisthenicsmaster.features.skill.data.repositories.SkillRepositoryImpl
+import vigor.fitness.calisthenicsmaster.features.skill.domain.repositories.SkillRepository
 
 
 val repoModule = module {
-    single<ExerciseRepository> { ExerciseRepositoryImpl(get()) }
-    single<RoutineRepository> { RoutineRepositoryImpl(get()) }
+    single<ExerciseRepository> { return@single ExerciseRepositoryImpl(get()) }
+    single<RoutineRepository> { return@single RoutineRepositoryImpl(get()) }
+    single<SkillRepository> { return@single SkillRepositoryImpl(get()) }
 }

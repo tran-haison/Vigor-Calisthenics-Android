@@ -1,4 +1,4 @@
-package vigor.fitness.calisthenicsmaster.features.routine.domain.entities
+package vigor.fitness.calisthenicsmaster.features.skill.domain.entities
 
 import androidx.room.Embedded
 import androidx.room.Entity
@@ -16,5 +16,7 @@ data class Plan(
     @Embedded(prefix = "exerciseState_")
     val exerciseState: ExerciseState,
     val pauseAfterSet: Int,
-    val pauseAfterExercise: Int
+    val pauseAfterExercise: Int,
+    val description: String? = null,
+    val dynamic: Boolean? = null,
 )

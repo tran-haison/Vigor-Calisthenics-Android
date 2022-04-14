@@ -1,6 +1,6 @@
-package vigor.fitness.calisthenicsmaster.features.routine.data.models
+package vigor.fitness.calisthenicsmaster.core.data.models
 
-import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.Stretching
+import vigor.fitness.calisthenicsmaster.core.domain.entities.Stretching
 
 data class StretchingModel(
     val name: String,

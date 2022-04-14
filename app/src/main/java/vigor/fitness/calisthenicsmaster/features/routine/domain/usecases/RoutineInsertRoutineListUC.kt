@@ -1,13 +1,13 @@
 package vigor.fitness.calisthenicsmaster.features.routine.domain.usecases
 
-import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.Plan
+import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.Routine
 import vigor.fitness.calisthenicsmaster.features.routine.domain.repositories.RoutineRepository
 
-class InsertPlanListUC(
+class RoutineInsertRoutineListUC(
     private val _routineRepository: RoutineRepository
 ) {
 
-    suspend operator fun invoke(list: List<Plan>) {
-        return _routineRepository.insertPlanList(list)
+    suspend operator fun invoke(list: List<Routine>) {
+        return _routineRepository.insertRoutineList(list)
     }
 }

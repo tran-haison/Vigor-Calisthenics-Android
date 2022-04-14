@@ -1,6 +1,6 @@
-package vigor.fitness.calisthenicsmaster.features.routine.data.models
+package vigor.fitness.calisthenicsmaster.core.data.models
 
-import vigor.fitness.calisthenicsmaster.features.routine.domain.entities.WarmUp
+import vigor.fitness.calisthenicsmaster.core.domain.entities.WarmUp
 
 data class WarmUpModel(
     val name: String,

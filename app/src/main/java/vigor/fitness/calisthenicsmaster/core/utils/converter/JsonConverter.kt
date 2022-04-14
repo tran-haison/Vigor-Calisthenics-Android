@@ -8,7 +8,7 @@ import vigor.fitness.calisthenicsmaster.core.utils.log.log
 import vigor.fitness.calisthenicsmaster.core.utils.log.logError
 import vigor.fitness.calisthenicsmaster.features.exercise.data.models.ExerciseModel
 import vigor.fitness.calisthenicsmaster.features.routine.data.models.RoutineModel
-import vigor.fitness.calisthenicsmaster.features.skill.domain.models.Skill
+import vigor.fitness.calisthenicsmaster.features.skill.data.models.SkillModel
 import java.lang.reflect.Modifier
 
 class JsonConverter(
@@ -43,12 +43,12 @@ class JsonConverter(
         return gson.fromJson(jsonArray.toString(), listRoutinesType)
     }
 
-    fun getSkillsList(): List<Skill> {
+    fun getSkillsList(): List<SkillModel> {
         val jsonFileString = readJsonAssets(SKILLS_JSON_FILE)
         val jsonRoot = JSONObject(jsonFileString)
         val jsonArray = jsonRoot.getJSONArray(SKILLS_ARRAY_NAME)
         val gson = GsonBuilder().excludeFieldsWithModifiers(Modifier.TRANSIENT).create()
-        val listSkillsType = object : TypeToken<List<Skill>>() {}.type
+        val listSkillsType = object : TypeToken<List<SkillModel>>() {}.type
         return gson.fromJson(jsonArray.toString(), listSkillsType)
     }
 
