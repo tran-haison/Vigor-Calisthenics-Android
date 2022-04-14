@@ -80,4 +80,9 @@ dependencies {
     // Java Compatibility
     implementation "io.insert-koin:koin-android-compat:$koin_version"
 
+    // Datastore
+    // https://developer.android.com/topic/libraries/architecture/datastore
+    implementation("androidx.datastore:datastore:1.0.0")
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+
 }
