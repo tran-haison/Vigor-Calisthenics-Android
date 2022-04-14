@@ -7,4 +7,51 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Basic colors -->
+    <color name="colorIcon">#545454</color>
+    <color name="colorGray">#BAB6B6</color>
+    <color name="colorLightGray">#f3f3f3</color>
+    <color name="colorLightGray40">#66F3F3F3</color>
+    <color name="colorLightBlack1">#2C2C2C</color>
+    <color name="colorLightBlack2">#434343</color>
+
+    <!-- Purple colors -->
+    <color name="colorLightPurple1">#EEECF4</color>
+    <color name="colorPurple1">#887edc</color>
+    <color name="colorPurple2">#4c4298</color>
+    <color name="colorPurple3">#201a50</color>
+
+    <!-- Blue colors -->
+    <color name="colorBlue1">#A2E2FF</color>
+    <color name="colorBlue2">#48BAED</color>
+    <color name="colorBlue3">#3F7DE6</color>
+    <color name="colorBlue4">#053F9F</color>
+
+    <!-- Dark green colors -->
+    <color name="colorGreen1">#BBFFF9</color>
+    <color name="colorGreen2">#46FFEE</color>
+    <color name="colorGreen3">#16AC9E</color>
+    <color name="colorGreen4">#026E63</color>
+
+    <!-- Light green colors -->
+    <color name="colorLightGreen1">#9ce71c</color>
+    <color name="colorLightGreen2">#38bf11</color>
+
+    <!-- Warm colors -->
+    <color name="colorYellow1">#FFEA00</color>
+    <color name="colorOrange1">#FF9100</color>
+    <color name="colorRed1">#FF3D00</color>
+    <color name="colorRed2">#BC2D00</color>
+    <color name="colorRed3">#FF0000</color>
+
+    <!-- Brown colors -->
+    <color name="colorBrown1">#DFF4E5DD</color>
+    <color name="colorBrown2">#FFCAAA</color>
+    <color name="colorBrown3">#d27842</color>
+    <color name="colorBrown4">#b86b3e</color>
+    <color name="colorBrown5">#89452a</color>
+    <color name="colorBrown6">#5d2e1e</color>
+    <color name="colorBrown7">#3c221b</color>
+
 </resources>

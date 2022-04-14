@@ -1,0 +1,3841 @@
+{
+  "routines": [
+    {
+      "id": 1001,
+      "belongingRoutineIDs": [
+        1005
+      ],
+      "name": "Muscle Workout",
+      "exercisePic": "images/routine_muscle_up.png",
+      "exercisePicDark": "images/basics.png",
+      "progress": 0,
+      "dynamicExercise": true,
+      "video": "no_video",
+      "videoURL": "x743RLRoG5Y",
+      "videoStart": 0,
+      "videoEnd": 9999999,
+      "muscles": "All",
+      "musclesIcons": [
+        "images/ic_torso.png",
+        "images/ic_leg.png"
+      ],
+      "difficulty": "Beginner-Pro",
+      "techniqueSummary": "* Be focused with each exercise \n* Try to beat your last result \n* Don't cheat and keep clean technique",
+      "description": "The Muscle Workout is designed to increase your general strength and to build muscles. You shouldn't only work on skills but also always on the basics fitting your level. It is all about the sets and reps!",
+      "routine": true,
+      "skillPic": "images/routine_muscle_up.png",
+      "titlePic": "images/title_muscle_routine.png",
+      "skillState": {
+        "skillID": 1001,
+        "currentProgress": 0,
+        "progress": 0.0
+      },
+      "progressions": [
+        {
+          "id": 10011,
+          "name": "Beginner",
+          "level": 1,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10011,
+            "finished": false,
+            "currentProgress": true,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Active Bar Hang",
+              "beat": 10
+            },
+            {
+              "name": "Push Up",
+              "beat": 5
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            },
+            {
+              "name": "Seated Forward Bend",
+              "beat": 30
+            },
+            {
+              "name": "Butterfly",
+              "beat": 30
+            },
+            {
+              "name": "Pancake",
+              "beat": 30
+            },
+            {
+              "name": "Pigeon",
+              "beat": 30
+            },
+            {
+              "name": "Spiderman Stretch",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Pull Up",
+              "set": 2,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 2,
+              "name": "Dip",
+              "set": 2,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 3,
+              "name": "Tuck Front Lever",
+              "set": 2,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 4,
+              "name": "Tuck Back Lever",
+              "set": 2,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 5,
+              "name": "Deep Squat",
+              "set": 2,
+              "beat": 50,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  20,
+                  20
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 6,
+              "name": "Pike Push Up",
+              "set": 2,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 7,
+              "name": "Knee Raises",
+              "set": 2,
+              "beat": 25,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 8,
+              "name": "Lunge",
+              "set": 2,
+              "beat": 25,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 9,
+              "name": "Chin Up",
+              "set": 2,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 10,
+              "name": "Push Up",
+              "set": 2,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  12,
+                  12
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 11,
+              "name": "Superman",
+              "set": 2,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            }
+          ]
+        },
+        {
+          "id": 10012,
+          "name": "Intermediate",
+          "level": 2,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10012,
+            "finished": false,
+            "currentProgress": false,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Pull Up",
+              "beat": 5
+            },
+            {
+              "name": "Push Up",
+              "beat": 10
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            },
+            {
+              "name": "Seated Forward Bend",
+              "beat": 30
+            },
+            {
+              "name": "Butterfly",
+              "beat": 30
+            },
+            {
+              "name": "Pancake",
+              "beat": 30
+            },
+            {
+              "name": "Pigeon",
+              "beat": 30
+            },
+            {
+              "name": "Spiderman Stretch",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Archer Pull Up",
+              "set": 2,
+              "beat": 8,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4,
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 2,
+              "name": "Elbow Dip",
+              "set": 2,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  8,
+                  8
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 3,
+              "name": "Adv. Tuck Front Lever",
+              "set": 2,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  8,
+                  8
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 4,
+              "name": "Adv. Tuck Back Lever",
+              "set": 2,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 5,
+              "name": "Jumping Squat",
+              "set": 2,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6,
+                  6
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 6,
+              "name": "Wall Handstand Push Up",
+              "set": 2,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4,
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 7,
+              "name": "Toes to Bar",
+              "set": 2,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7,
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 8,
+              "name": "Bulgarian Squat",
+              "set": 2,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  8,
+                  8
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 9,
+              "name": "L-Sit Chin Up",
+              "set": 2,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 10,
+              "name": "Archer Push Up",
+              "set": 2,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  12,
+                  12
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 11,
+              "name": "Superman",
+              "set": 2,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "belongingRoutineIDs": [],
+      "name": "Leg Workout",
+      "exercisePic": "images/routine_leg_2.png",
+      "exercisePicDark": "images/routine_leg.png",
+      "progress": 0,
+      "video": "no_video",
+      "videoURL": "WA2dhdvlQQU",
+      "videoStart": 32000,
+      "videoEnd": 9999999,
+      "muscles": "All",
+      "musclesIcons": [
+        "images/ic_leg.png"
+      ],
+      "difficulty": "Beginner-Pro",
+      "techniqueSummary": "* Be focused with each exercise \n* Try to beat your last result \n* Don't cheat and keep clean technique",
+      "description": "The Leg Workout is designed to increase your general strength and to build muscles in your lower body. Training the lower body is very important. It consists of big muscle which will generate a lot of testosterone. This will increase also the muscle growth in the whole body. You shouldn't only work on skills like the Pistol Squat, but also always on the basics fitting your level. It is all about the sets and reps!",
+      "routine": true,
+      "skillPic": "images/routine_leg_2.png",
+      "titlePic": "images/title_legs.png",
+      "skillState": {
+        "skillID": 1002,
+        "currentProgress": 0,
+        "progress": 0.0
+      },
+      "progressions": [
+        {
+          "id": 10021,
+          "name": "Beginner",
+          "level": 1,
+          "goal": 50,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10021,
+            "finished": false,
+            "currentProgress": true,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            },
+            {
+              "name": "Squat Reach",
+              "beat": 3
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Seated Forward Bend",
+              "beat": 30
+            },
+            {
+              "name": "Butterfly",
+              "beat": 30
+            },
+            {
+              "name": "Frog Stretch",
+              "beat": 30
+            },
+            {
+              "name": "Middle Split",
+              "beat": 30
+            },
+            {
+              "name": "Pancake",
+              "beat": 30
+            },
+            {
+              "name": "Pigeon",
+              "beat": 30
+            },
+            {
+              "name": "Spiderman Stretch",
+              "beat": 30
+            },
+            {
+              "name": "Front Split",
+              "beat": 30
+            },
+            {
+              "name": "Standing Forward Bend",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 40,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  15
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 2,
+              "name": "Lunge",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 3,
+              "name": "Glute Bridge",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 4,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 25,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 5,
+              "name": "Wall Sit",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 6,
+              "name": "Calf Raise",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 7,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 40,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  15
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 8,
+              "name": "Lunge",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 9,
+              "name": "Glute Bridge",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 10,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 25,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 11,
+              "name": "Wall Sit",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 12,
+              "name": "Calf Raise",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 13,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 40,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  15
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 14,
+              "name": "Lunge",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 15,
+              "name": "Glute Bridge",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 16,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 25,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 17,
+              "name": "Wall Sit",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 18,
+              "name": "Calf Raise",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 90
+            }
+          ]
+        },
+        {
+          "id": 10022,
+          "name": "Intermediate",
+          "level": 2,
+          "goal": 50,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10022,
+            "finished": false,
+            "currentProgress": false,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Deep Squat",
+              "beat": 10
+            },
+            {
+              "name": "Squat Reach",
+              "beat": 3
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Seated Forward Bend",
+              "beat": 30
+            },
+            {
+              "name": "Butterfly",
+              "beat": 30
+            },
+            {
+              "name": "Frog Stretch",
+              "beat": 30
+            },
+            {
+              "name": "Middle Split",
+              "beat": 30
+            },
+            {
+              "name": "Pancake",
+              "beat": 30
+            },
+            {
+              "name": "Pigeon",
+              "beat": 30
+            },
+            {
+              "name": "Spiderman Stretch",
+              "beat": 30
+            },
+            {
+              "name": "Front Split",
+              "beat": 30
+            },
+            {
+              "name": "Standing Forward Bend",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Jumping Squat",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 2,
+              "name": "Jumping Lunge",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 3,
+              "name": "Bulgarian Squat",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 4,
+              "name": "One Leg Glute Bridge",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 5,
+              "name": "Assisted Pistol Squat",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 6,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 60,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  30
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 7,
+              "name": "One Leg Calf Raise",
+              "set": 1,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 8,
+              "name": "Jumping Squat",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 9,
+              "name": "Jumping Lunge",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 10,
+              "name": "Bulgarian Squat",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 11,
+              "name": "One Leg Glute Bridge",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 12,
+              "name": "Assisted Pistol Squat",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 13,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 60,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  30
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 14,
+              "name": "One Leg Calf Raise",
+              "set": 1,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 15,
+              "name": "Jumping Squat",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 16,
+              "name": "Jumping Lunge",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 17,
+              "name": "Bulgarian Squat",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 18,
+              "name": "One Leg Glute Bridge",
+              "set": 1,
+              "beat": 30,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 19,
+              "name": "Assisted Pistol Squat",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 20,
+              "name": "Deep Squat",
+              "set": 1,
+              "beat": 60,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  30
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 21,
+              "name": "One Leg Calf Raise",
+              "set": 1,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 5
+            },
+            {
+              "nr": 22,
+              "name": "Wall Sit",
+              "set": 1,
+              "beat": 60,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  20
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1004,
+      "belongingRoutineIDs": [
+        2,
+        3
+      ],
+      "name": "Planche/Front Lever",
+      "exercisePic": "images/planche_front_lever.png",
+      "exercisePicDark": "images/planche_front_lever.png",
+      "progress": 0,
+      "video": "no_video",
+      "videoURL": "n30yrtZvW_M",
+      "videoStart": 7000,
+      "videoEnd": 20000,
+      "muscles": "All",
+      "musclesIcons": [
+        "images/ic_torso.png"
+      ],
+      "difficulty": "Beginner-Advanced",
+      "techniqueSummary": "* Be focused with each exercise \n* Try to beat your last result \n* Don't cheat and keep clean technique",
+      "description": "This Workout hits the whole upper body and focuses on achieving the Planche and Front Lever. These two skills are complementary and can be trained together. The exercises alternate between the Planche progressions and Front Lever progressions in order to reduce the workout time while ensuring enough rest for each muscle group.",
+      "routine": true,
+      "skillPic": "images/planche_front_lever.png",
+      "titlePic": "images/title_planche.png",
+      "skillState": {
+        "skillID": 1004,
+        "currentProgress": 0,
+        "progress": 0.0
+      },
+      "progressions": [
+        {
+          "id": 10041,
+          "name": "Beginner",
+          "level": 1,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10041,
+            "finished": false,
+            "currentProgress": true,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Pull Up",
+              "beat": 5
+            },
+            {
+              "name": "Push Up",
+              "beat": 10
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Pseudo Push Ups",
+              "set": 1,
+              "beat": 8,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 2,
+              "name": "Tuck Front Lever",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 3,
+              "name": "Pseudo Push Ups",
+              "set": 1,
+              "beat": 8,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 4,
+              "name": "Tuck Front Lever",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 5,
+              "name": "Pseudo Push Ups",
+              "set": 1,
+              "beat": 8,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 6,
+              "name": "Tuck Front Lever",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 7,
+              "name": "Pseudo Planche Lean",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 8,
+              "name": "Knee Raises",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 9,
+              "name": "Pseudo Planche Lean",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 10,
+              "name": "Knee Raises",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 11,
+              "name": "Pseudo Planche Lean",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 12,
+              "name": "Knee Raises",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 13,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 14,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 15,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 16,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 17,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 18,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            }
+          ]
+        },
+        {
+          "id": 10042,
+          "name": "Intermediate",
+          "level": 2,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10042,
+            "finished": false,
+            "currentProgress": false,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Pull Up",
+              "beat": 6
+            },
+            {
+              "name": "Push Up",
+              "beat": 12
+            },
+            {
+              "name": "Skin the Cat",
+              "beat": 3
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Tuck Planche",
+              "set": 1,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 2,
+              "name": "Adv. Tuck Front Lever",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 3,
+              "name": "Tuck Planche",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 4,
+              "name": "Adv. Tuck Front Lever",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 5,
+              "name": "Tuck Planche",
+              "set": 1,
+              "beat": 13,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 6,
+              "name": "Adv. Tuck Front Lever",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 7,
+              "name": "Pseudo Planche Lean",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 8,
+              "name": "Tuck Front Lever",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 9,
+              "name": "Pseudo Planche Lean",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 10,
+              "name": "Tuck Front Lever",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 11,
+              "name": "Pseudo Planche Lean",
+              "set": 1,
+              "beat": 7,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 12,
+              "name": "Tuck Front Lever",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 13,
+              "name": "Pike Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 14,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 7,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 15,
+              "name": "Pike Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 16,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 7,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 17,
+              "name": "Pike Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 18,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 7,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            }
+          ]
+        },
+        {
+          "id": 10043,
+          "name": "Advanced",
+          "level": 3,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10043,
+            "finished": false,
+            "currentProgress": false,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Pull Up",
+              "beat": 6
+            },
+            {
+              "name": "Push Up",
+              "beat": 12
+            },
+            {
+              "name": "Skin the Cat",
+              "beat": 3
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Adv. Tuck Planche",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 2,
+              "name": "Half Front Lever",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 3,
+              "name": "Adv. Tuck Planche",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 4,
+              "name": "Half Front Lever",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 5,
+              "name": "Adv. Tuck Planche",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 6,
+              "name": "Half Front Lever",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 7,
+              "name": "Tuck Planche",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 8,
+              "name": "Adv. Tuck Front Lever",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 9,
+              "name": "Tuck Planche",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 10,
+              "name": "Adv. Tuck Front Lever",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 11,
+              "name": "Tuck Planche",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 12,
+              "name": "Adv. Tuck Front Lever",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  7
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 13,
+              "name": "Adv. Pike Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 14,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 15,
+              "name": "Adv. Pike Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 16,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 17,
+              "name": "Adv. Pike Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 18,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "belongingRoutineIDs": [
+        1001
+      ],
+      "name": "Upper Body Workout",
+      "exercisePic": "images/routine_muscle_up.png",
+      "exercisePicDark": "images/routine_muscle_up.png",
+      "progress": 0,
+      "video": "no_video",
+      "videoURL": "x743RLRoG5Y",
+      "videoStart": 0,
+      "videoEnd": 9999999,
+      "muscles": "All",
+      "musclesIcons": [
+        "images/ic_torso.png"
+      ],
+      "difficulty": "Beginner-Intermediate",
+      "techniqueSummary": "* Be focused with each exercise \n* Try to beat your last result \n* Don't cheat and keep clean technique",
+      "description": "The Upper Body Workout contains fundamental exercises and is focused on gaining muscles and strength.",
+      "routine": true,
+      "skillPic": "images/routine_muscle_up.png",
+      "titlePic": "images/title_upper_body.png",
+      "skillState": {
+        "skillID": 1005,
+        "currentProgress": 0,
+        "progress": 0.0
+      },
+      "progressions": [
+        {
+          "id": 10051,
+          "name": "Beginner",
+          "level": 1,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10051,
+            "finished": false,
+            "currentProgress": true,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Active Bar Hang",
+              "beat": 10
+            },
+            {
+              "name": "Push Up",
+              "beat": 5
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Pull Up",
+              "set": 3,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 2,
+              "name": "Pike Push Up",
+              "set": 3,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 3,
+              "name": "Chin Up",
+              "set": 3,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  4,
+                  4,
+                  4
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 4,
+              "name": "Push Up",
+              "set": 3,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6,
+                  6,
+                  6
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            }
+          ]
+        },
+        {
+          "id": 10052,
+          "name": "Intermediate",
+          "level": 2,
+          "goal": 10,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10052,
+            "finished": false,
+            "currentProgress": false,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Pull Up",
+              "beat": 5
+            },
+            {
+              "name": "Push Up",
+              "beat": 15
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Archer Pull Up",
+              "set": 3,
+              "beat": 8,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 2,
+              "name": "Adv. Pike Push Up",
+              "set": 3,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 3,
+              "name": "L-Sit Chin Up",
+              "set": 3,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            },
+            {
+              "nr": 4,
+              "name": "Archer Push Up",
+              "set": 3,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 90,
+              "pauseAfterExercise": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "belongingRoutineIDs": [],
+      "name": "Pull Workout",
+      "exercisePic": "images/routine_muscle_up.png",
+      "exercisePicDark": "images/basics.png",
+      "progress": 0,
+      "video": "no_video",
+      "videoURL": "x743RLRoG5Y",
+      "videoStart": 0,
+      "videoEnd": 9999999,
+      "muscles": "All",
+      "musclesIcons": [
+        "images/ic_back.png"
+      ],
+      "difficulty": "Beginner",
+      "techniqueSummary": "* Be focused with each exercise \n* Try to beat your last result \n* Don't cheat and keep clean technique",
+      "description": "The Pull Workout contains fundamental exercises and is focused on gaining pull strength.",
+      "routine": true,
+      "skillPic": "images/routine_pull.png",
+      "titlePic": "images/title_pull.jpg",
+      "skillState": {
+        "skillID": 1006,
+        "currentProgress": 0,
+        "progress": 0.0
+      },
+      "progressions": [
+        {
+          "id": 10061,
+          "name": "Beginner",
+          "level": 1,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10061,
+            "finished": false,
+            "currentProgress": true,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Active Bar Hang",
+              "beat": 10
+            },
+            {
+              "name": "Torso Twist",
+              "beat": 5
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Pull Up",
+              "set": 3,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 2,
+              "name": "Tuck Front Lever Raise",
+              "set": 3,
+              "beat": 12,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 3,
+              "name": "Chin Up",
+              "set": 3,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 4,
+              "name": "Body Row",
+              "set": 3,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6,
+                  6,
+                  6
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "belongingRoutineIDs": [],
+      "name": "Push Workout",
+      "exercisePic": "images/routine_muscle_up.png",
+      "exercisePicDark": "images/basics.png",
+      "progress": 0,
+      "video": "no_video",
+      "videoURL": "x743RLRoG5Y",
+      "videoStart": 0,
+      "videoEnd": 9999999,
+      "muscles": "All",
+      "musclesIcons": [
+        "images/ic_back.png"
+      ],
+      "difficulty": "Beginner",
+      "techniqueSummary": "* Be focused with each exercise \n* Try to beat your last result \n* Don't cheat and keep clean technique",
+      "description": "The Push Workout contains fundamental exercises and is focused on gaining push strength.",
+      "routine": true,
+      "skillPic": "images/routine_push.png",
+      "titlePic": "images/title_push.jpg",
+      "skillState": {
+        "skillID": 1007,
+        "currentProgress": 0,
+        "progress": 0.0
+      },
+      "progressions": [
+        {
+          "id": 10071,
+          "name": "Beginner",
+          "level": 1,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10071,
+            "finished": false,
+            "currentProgress": true,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            },
+            {
+              "name": "Push Up",
+              "beat": 10
+            }
+          ],
+          "stretching": [
+           {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Pseudo Push Ups",
+              "set": 3,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 2,
+              "name": "Dip",
+              "set": 3,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 3,
+              "name": "Pike Push Up",
+              "set": 3,
+              "beat": 12,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  3,
+                  3,
+                  3
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            },
+            {
+              "nr": 4,
+              "name": "Push Up",
+              "set": 3,
+              "beat": 20,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  6,
+                  6,
+                  6
+                ]
+              },
+              "pauseAfterSet": 60,
+              "pauseAfterExercise": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1008,
+      "belongingRoutineIDs": [],
+      "name": "Upper Body Circle",
+      "exercisePic": "images/routine_muscle_up.png",
+      "exercisePicDark": "images/basics.png",
+      "progress": 0,
+      "video": "no_video",
+      "videoURL": "x743RLRoG5Y",
+      "videoStart": 0,
+      "videoEnd": 9999999,
+      "muscles": "All",
+      "musclesIcons": [
+        "images/ic_torso.png"
+      ],
+      "difficulty": "Beginner",
+      "techniqueSummary": "* Be focused with each exercise \n* Try to beat your last result \n* Don't cheat and keep clean technique",
+      "description": "The Upper Body Circle is a round based workout, which contains basic upper body exercises. The goal is to improve muscle endurance. Therefore keep always clean technique, but try to reduce rest time to a minimum and to complete the workout as quick as possible. The workout can nicely be added after Skill/Strength work to increase volume.",
+      "routine": true,
+      "skillPic": "images/routine_muscle_up.png",
+      "titlePic": "images/title_upper_body.png",
+      "skillState": {
+        "skillID": 1008,
+        "currentProgress": 0,
+        "progress": 0.0
+      },
+      "progressions": [
+        {
+          "id": 10081,
+          "name": "Beginner",
+          "level": 1,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10081,
+            "finished": false,
+            "currentProgress": true,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 2,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 3,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 4,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 5,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 6,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 7,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 8,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 9,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 10,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 11,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 12,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 13,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 14,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 15,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 16,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 17,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 18,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 19,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 20,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 21,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 22,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 23,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 24,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 25,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 26,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 27,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 28,
+              "name": "Body Row",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 29,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 30,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            }
+          ]
+        },
+        {
+          "id": 10082,
+          "name": "Intermediate",
+          "level": 2,
+          "goal": 15,
+          "goalText": "\u2191 reps",
+          "progressState": {
+            "progressId": 10082,
+            "finished": false,
+            "currentProgress": false,
+            "status": 0.0
+          },
+          "warmUp": [
+            {
+              "name": "Jumping Jacks",
+              "beat": 20
+            }, 
+            {
+              "name": "Wrist Roll",
+              "beat": 10
+            },
+            {
+              "name": "Elbow Circles",
+              "beat": 10
+            },
+            {
+              "name": "Arm Circles",
+              "beat": 10
+            }
+          ],
+          "stretching": [
+            {
+              "name": "Shoulder Extension",
+              "beat": 30
+            },
+            {
+              "name": "Wall Downdog",
+              "beat": 30
+            },
+            {
+              "name": "Twisted Downward Dog",
+              "beat": 30
+            }
+          ],
+          "plan": [
+            {
+              "nr": 1,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 2,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 3,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 4,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 5,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 6,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 7,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 8,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 9,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 10,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 11,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 12,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 13,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 14,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 15,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 16,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 17,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 18,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 19,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 20,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 21,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 22,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 23,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 24,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 25,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 26,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 27,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 28,
+              "name": "Pull Up",
+              "set": 1,
+              "beat": 10,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  5,
+                  5,
+                  5
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 29,
+              "name": "Push Up",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            },
+            {
+              "nr": 30,
+              "name": "Leg Raise",
+              "set": 1,
+              "beat": 15,
+              "exerciseState": {
+                "record": 0,
+                "lastSetResult": [
+                  10,
+                  10,
+                  10
+                ]
+              },
+              "pauseAfterSet": 10,
+              "pauseAfterExercise": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
